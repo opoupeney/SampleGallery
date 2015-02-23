@@ -1,0 +1,72 @@
+{
+	"_id": "541b1f202ff9c16c1e2cf875",
+	"selector": ":root",
+	"update_comment": "",
+	"ownerId": "",
+	"persistence": "none",
+	"settings": {
+		"postrequestbody": {
+			"CustomerId": "",
+			"CustomerName": "",
+			"Address": "",
+			"City": "",
+			"state": "",
+			"Country": "",
+			"Zip": ""
+		},
+		"authentication": "none",
+		"auth_password": "",
+		"typerequest": "HTTP_POST",
+		"urlrandom": "0",
+		"auth_userid": "",
+		"url": "http://demos.market-interactive-clouds.com:3000/database/update",
+		"dbdriver": "mongodb",
+		"dbnames": {
+			"database": "CrudTest",
+			"collection": "Customers"
+		}
+	},
+	"appexpr": [],
+	"format": "json",
+	"dependency": "",
+	"category": "Samples",
+	"description": "",
+	"name": "qCrudUpdate",
+	"connector": "http",
+	"requestDate": "2015-02-20T13:58:44.060Z",
+	"parameters": [],
+	"metadata": "{\"name\":\"root\",\"type\":\"root\",\"children\":{}}",
+	"source": "db",
+	"visibility": "visible",
+	"lock": {
+		"status": "unlocked"
+	},
+	"precode": [],
+	"postcode": [],
+	"service": {
+		"name": "",
+		"method": ""
+	},
+	"versioning": {
+		"SampleGallery": {
+			"last_action": "1424701854",
+			"status": "committed",
+			"user": "admin"
+		},
+		"dreamface2": {
+			"last_action": "1422542417",
+			"status": "committed",
+			"user": "admin"
+		},
+		"dreamface1": {
+			"status": "modified",
+			"user": "admin",
+			"last_action": "1424440724"
+		},
+		"MyDfApp": {
+			"last_action": "1415932923",
+			"status": "modified",
+			"user": "admin"
+		}
+	}
+}
